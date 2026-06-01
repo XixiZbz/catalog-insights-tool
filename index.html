@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Etsy Market Research Collector</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #222;
+        background: #f8f6f1;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      main {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 72px 24px;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(2rem, 6vw, 4rem);
+        line-height: 1;
+        font-weight: 750;
+      }
+
+      h2 {
+        margin: 40px 0 12px;
+        font-size: 1.15rem;
+      }
+
+      p,
+      li {
+        font-size: 1rem;
+        line-height: 1.7;
+      }
+
+      .summary {
+        font-size: 1.18rem;
+        color: #4d463d;
+      }
+
+      .notice {
+        margin-top: 32px;
+        padding: 18px 20px;
+        border: 1px solid #d7d0c2;
+        background: #fffdf8;
+        border-radius: 8px;
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Etsy Market Research Collector</h1>
+      <p class="summary">
+        A private research tool for organizing Etsy market data through Etsy Open API v3.
+      </p>
+
+      <h2>Purpose</h2>
+      <p>
+        The application helps with product research and market analysis by collecting and
+        organizing publicly available Etsy data such as active listing information, shop
+        profile information, listing media, reviews, and taxonomy/category data when these
+        resources are available through the official Etsy API.
+      </p>
+
+      <h2>API Usage</h2>
+      <p>
+        The application uses Etsy Open API v3 official endpoints and is designed to respect
+        Etsy's documented API rate limits and request standards.
+      </p>
+
+      <div class="notice">
+        <strong>The application does not:</strong>
+        <ul>
+          <li>Scrape Etsy web pages</li>
+          <li>Bypass login, CAPTCHA, bot protection, or access controls</li>
+          <li>Use proxy rotation to evade rate limits</li>
+          <li>Ask users to share API keys publicly</li>
+          <li>Collect private shop data without OAuth authorization</li>
+        </ul>
+      </div>
+
+      <h2>Users</h2>
+      <p>
+        This tool is currently intended for private use by the developer and colleagues for
+        product research and internal analysis.
+      </p>
+
+      <h2>Data Handling</h2>
+      <p>
+        Collected data is used for internal product research and analysis. Private shop data,
+        if used in the future, will require OAuth authorization from the shop owner and will
+        be handled according to Etsy API Terms and applicable privacy requirements.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        For questions about this application, contact the developer through the Etsy developer
+        account associated with the API application.
+      </p>
+    </main>
+  </body>
+</html>
